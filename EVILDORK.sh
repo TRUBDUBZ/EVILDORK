@@ -1,13 +1,9 @@
 #!/bin/bash
-# A script to enumerate web-sites using google dorks
-# Author: Ivan Glinkin
-# Contact: ivan.o.glinkin@gmail.com
-# Release date: May 3, 2020
 
 # Variables
 ## General
-version="1.010"								## Version Year.Day
-updatedate="May 18,2020"					## The date of the last update
+version="1.0"								## Version Year.Day
+updatedate="August 5, 2020"					## The date of the last update
 example_domain="megacorp.one" 				## Example domain
 sleeptime=6									## Delay between queries, in seconds
 domain=$1 									## Get the domain
@@ -68,12 +64,12 @@ dirtravarray=($dtparent $dtdcim $dtftp $dtbackup $dtmail $dtpassword $dtpub)
 
 # Header
 echo -e "\n\e[00;33m#########################################################\e[00m"
-echo -e "\e[00;33m#                                                       #\e[00m" 
-echo -e "\e[00;33m#\e[00m" "\e[01;32m               Fast Google Dorks Scan                \e[00m" "\e[00;33m#\e[00m"
-echo -e "\e[00;33m#                                                       #\e[00m" 
+echo -e "\e[00;33m#                               - ************ -                 #\e[00m" 
+echo -e "\e[00;33m#\e[00m" "\e[01;32m             - * EVILDORK * -             \e[00m" "\e[00;33m#\e[00m"
+echo -e "\e[00;33m#                               - ************ -             #\e[00m" 
 echo -e "\e[00;33m#########################################################\e[00m"
 echo -e ""
-echo -e "\e[00;33m# https://www.linkedin.com/in/IvanGlinkin/ | @IvanGlinkin\e[00m"
+echo -e "\e[00;33m#							 [00m"
 echo -e "\e[00;33m# Version:                 \e[00m" "\e[01;31m$version\e[00m"
 
 # Check domain
